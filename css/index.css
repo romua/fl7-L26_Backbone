@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    
+}
+body * {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+.wraper {
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 300px; 
+    box-shadow: 1px 5px 43px -2px rgba(255,255,255,1);
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+li {
+   padding: 10px;    
+}
+
+li:nth-child(2n+1){
+    background-color: black;
+    color: white;
+}
+li:nth-child(2n){
+    background-color: white;
+    color: black;
+}
+input {
+    margin: 0;
+    padding: 11px;  
+    width: 275px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 0.8em;
+}
+
+#app {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    
+}
+#button{
+    border: none;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    color: black;
+}
